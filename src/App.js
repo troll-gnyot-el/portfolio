@@ -4,6 +4,8 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import "typeface-roboto";
 import { useEffect, useState } from "react";
 import Menu from "./components/Menu/Menu";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Contacts from "./components/Contacts/Contacts";
 function App() {
   const [headerStyle, setHeaderStyle] = useState("");
 
@@ -21,11 +23,13 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{ display: "flex" }}>
-        <Menu headerStyle={headerStyle} />
-        <HeaderPage />
-      </div>
+      {/*<div style={{ display: "flex" }}>*/}
+      <Menu headerStyle={headerStyle} />
+      <HeaderPage />
+      {/*</div>*/}
       <AboutMe />
+      <Portfolio />
+      <Contacts />
     </div>
   );
 }

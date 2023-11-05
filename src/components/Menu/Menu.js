@@ -6,7 +6,7 @@ function Menu(headerStyle) {
       <header id="header" className={"header " + headerStyle}>
           <div className="container header__container">
               <a href="#" className="logo">
-                  <img className="logo__img" src="/icon-resume-96.png" alt="Логотип"/>
+                  <img className="logo__img" src="/favicon-cv.png" alt="Логотип"/>
               </a>
               <nav className="menu">
                   <ul className="menu__list">
@@ -21,12 +21,12 @@ function Menu(headerStyle) {
                           </a>
                       </li>
                       <li className="menu__item">
-                          <a className="menu__link" href="#">
+                          <a className="menu__link" href="#portfolio">
                               Portfolio
                           </a>
                       </li>
                       <li className="menu__item">
-                          <a className="menu__link" href="#">
+                          <a className="menu__link" href="#contacts">
                               Contacts
                           </a>
                       </li>

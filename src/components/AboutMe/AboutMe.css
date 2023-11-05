@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:600&display=swap");
 
 .page-body {
-  height: 436px;
+  height: 300px;
   margin: 0 20px;
   font-weight: bold;
   background: #fff;
@@ -32,19 +32,19 @@ span a:after {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 5px solid black;
+  border: 5px solid rgba(11, 11, 11, 0.93);
   box-sizing: border-box;
   border-radius: 5px;
 }
 
 span a:before {
   color: #fff;
-  background: #000;
+  background: rgba(11, 11, 11, 0.93);
   transform: rotateY(0deg) translateZ(25px);
 }
 
 span a:after {
-  color: #000;
+  color: rgba(11, 11, 11, 0.93);
   transform: rotateX(90deg) translateZ(25px);
 }
 
