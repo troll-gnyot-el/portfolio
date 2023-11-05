@@ -1,4 +1,4 @@
-# It is a web-portfolio of Evgeniia Kasvina made with with React
+# It is a web-portfolio of Evgeniia Kasvina made with React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
