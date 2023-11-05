@@ -1,13 +1,16 @@
-import React from 'react';
-import './HeadPage.css'
-function HeadPage() {
-  const TITLE = 'Your bugs is my problem';
+import React from "react";
+import "./AboutMe.css";
+function AboutMe() {
+  const QUOTE = "Your bugs is my problem.";
 
   return (
-      <div className='page-body'>
-
-      </div>
+    <div className="page-body" id="aboutMe">
+      <p>{QUOTE}</p>
+        <p>I am into web-development 5 years, of which React development is 2 years.
+            I participated in the development of applications for Gazprom and three large banks (Alfa-bank, Rosbank, SMP bank).
+        </p>
+    </div>
   );
 }
 
-export default HeadPage;
+export default AboutMe;

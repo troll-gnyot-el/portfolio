@@ -1,23 +1,21 @@
 import React from "react";
-import "./Header.css";
-import Menu from "../Menu/Menu";
+import "./HeaderPage.css";
 // rfc Tab
-function Header() {
+function HeaderPage() {
   const TITLE = "Kasvina Evgeniia";
   const TITLE_TEXT = "Web-developer";
-  const QUOTE = "Your bugs is my problem";
 
   return (
-    <div className="header">
-      <Menu/>
-      <div>
+    <div className="header-page" id='headerPage'>
+      <div style={{minWidth: '600px'}}>
         <p className="title animated-text-down">{TITLE}</p>
         <p className="title-text animated-text-up">{TITLE_TEXT}</p>
       </div>
-
-        <img src="me.jpg" alt="Evgeniia Kasvina" />
+      <div className="image-container">
+        <img src="/me.jpg" alt="Evgeniia Kasvina" className="rounded-image" />
+      </div>
     </div>
   );
 }
 
-export default Header;
+export default HeaderPage;

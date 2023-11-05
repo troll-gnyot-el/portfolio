@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import HeaderPage from "./components/HeaderPage/HeaderPage";
+import AboutMe from "./components/AboutMe/AboutMe";
+import "typeface-roboto";
+import { useEffect, useState } from "react";
+import Menu from "./components/Menu/Menu";
 function App() {
+  const [headerStyle, setHeaderStyle] = useState("");
+
+  useEffect(() => {
+    window.addEventListener("scroll", function () {
+      const scrollPos = window.scrollY;
+
+      if (scrollPos > 100) {
+        setHeaderStyle("header_mini");
+      } else {
+        setHeaderStyle("");
+      }
+    });
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{ display: "flex" }}>
+        <Menu headerStyle={headerStyle} />
+        <HeaderPage />
+      </div>
+      <AboutMe />
     </div>
   );
 }

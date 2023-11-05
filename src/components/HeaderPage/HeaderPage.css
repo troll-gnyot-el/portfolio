@@ -1,4 +1,4 @@
-.header {
+.header-page {
     background-color: rgba(11, 11, 11, 0.93);
     height: 420px;
     clip-path: polygon(
@@ -15,7 +15,7 @@
 .title {
     display: inline-block;
     color: #faf4e4;
-    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+    /*font-family: 'Menlo', 'Monaco', 'Courier New', monospace;*/
     font-size: 105px;
     font-weight: 600;
     line-height: 115px;
@@ -28,8 +28,8 @@
 
 .title-text {
     display: inline-block;
-    color: #faf4e4;
-    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+    color: /*#faf4e4*/  rgba(255,255,255,.7);
+    /*font-family: 'Menlo', 'Monaco', 'Courier New', monospace;*/
     font-size: 70px;
     font-weight: 200;
     line-height: 80px;
@@ -37,61 +37,6 @@
     text-align: left;
     margin: 0 20px;
 }
-
-/*@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(40px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeInDown {
-    0% {
-        opacity: 0;
-        transform: translateY(-40px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes scaleIn {
-    0% {
-        transform: scale(0);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-.animated-photo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 20px auto;
-    opacity: 0;
-}
-
-.animated-text-up,
-.animated-photo-up {
-    animation: fadeInUp 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
-}
-
-.animated-text-down,
-.animated-photo-down {
-    animation: fadeInDown 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
-}
-
-.animated-photo-up,
-.animated-photo-down {
-    animation: scaleIn 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
-}*/
 
 @keyframes fadeInUp {
     0% {
@@ -121,4 +66,23 @@
 
 .animated-text-down {
     animation: fadeInDown 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    right: 42px;
+    top: 10px;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    width: 250px; /* Задайте нужную ширину и высоту для изображения */
+    height: 250px;
+    min-width: 250px;
+    transition: transform 0.3s ease-in-out; /* Добавляем анимацию */
+}
+
+.rounded-image:hover {
+    transform: scale(1.1); /* Увеличиваем размер при наведении */
 }
