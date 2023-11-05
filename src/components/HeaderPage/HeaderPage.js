@@ -2,7 +2,7 @@ import React from "react";
 import "./HeaderPage.css";
 // rfc Tab
 function HeaderPage() {
-  const TITLE = "Kasvina Evgeniia";
+  const TITLE = "Kasvin Evgeniia";
   const TITLE_TEXT = "Web-developer";
 
   return (
@@ -12,7 +12,7 @@ function HeaderPage() {
         <p className="title-text animated-text-up">{TITLE_TEXT}</p>
       </div>
       <div className="image-container">
-        <img src="/me.jpg" alt="Evgeniia Kasvina" className="rounded-image" />
+        <img src="/me.jpg" alt="Kasvin Evgeniia" className="rounded-image" />
       </div>
     </div>
   );
