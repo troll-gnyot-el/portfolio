@@ -12,7 +12,7 @@ function HeaderPage() {
         <p className="title-text animated-text-up">{TITLE_TEXT}</p>
       </div>
       <div className="image-container">
-        <img src="/me.jpg" alt="Kasvin Evgeniia" className="rounded-image" />
+        <img src="me.jpg" alt="Kasvin Evgeniia" className="rounded-image" />
       </div>
     </div>
   );
