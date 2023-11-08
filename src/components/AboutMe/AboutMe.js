@@ -12,7 +12,7 @@ function AboutMe() {
         three large banks (Alfa-bank, Rosbank, SMP bank).
       </p>
       <span>
-        <a href="/CV-short.pdf"></a>
+        <a href="CV-short.pdf"></a>
       </span>
     </div>
   );
