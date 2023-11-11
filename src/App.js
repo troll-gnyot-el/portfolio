@@ -23,10 +23,8 @@ function App() {
 
   return (
     <div className="App">
-      {/*<div style={{ display: "flex" }}>*/}
       <Menu headerStyle={headerStyle} />
       <HeaderPage />
-      {/*</div>*/}
       <AboutMe />
       <Portfolio />
       <Contacts />
