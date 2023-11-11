@@ -9,7 +9,7 @@ function Portfolio() {
           href="https://troll-gnyot-el.github.io/nasa-proj/"
           target="_blank"
         >
-          <div className="image-container">
+          <div className="proj-container">
             <img
               src="https://blogs.nasa.gov/spacestation/wp-content/uploads/sites/240/2022/10/blog_iss066e175249.jpg"
               alt="NASA FUN PROJECT"
