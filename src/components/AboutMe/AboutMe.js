@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutMe.css";
 function AboutMe() {
-  const QUOTE = "Your bugs is my problem.";
+  const QUOTE = "Your bugs are my problem.";
 
   return (
     <div className="page-body" id="aboutMe">
@@ -9,7 +9,7 @@ function AboutMe() {
       <p>
         I am into web-development 5 years, of which React development is 2
         years. I participated in the development of applications for Gazprom and
-        three large banks (Alfa-bank, Rosbank, SMP bank).
+        three large Rusian banks (Alfa-bank, Rosbank, SMP bank).
       </p>
       <span>
         <a href="CV-short.pdf"></a>
