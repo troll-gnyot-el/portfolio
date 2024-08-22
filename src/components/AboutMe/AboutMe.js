@@ -7,8 +7,8 @@ function AboutMe() {
     <div className="page-body" id="aboutMe">
       <h1>{QUOTE}</h1>
       <p>
-        I am into web-development 5 years, of which React development is 2
-        years. I participated in the development of applications for Gazprom and
+        I am into web-development 6 years, of which React development is 3
+        years. I participated in the development of internal systems for Gazprom and
         three large Rusian banks (Alfa-bank, Rosbank, SMP bank).
       </p>
       <span>
