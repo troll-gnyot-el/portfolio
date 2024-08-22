@@ -25,7 +25,7 @@ function Portfolio() {
                         </div>
                     </a>
                 </div>
-                <div className="portfolio-item" style={{marginLeft: "10px"}}>
+                <div className="portfolio-item" style={{marginLeft: "15px"}}>
                     <a
                         href="https://alfabank.ru/en/"
                         target="_blank"
@@ -44,7 +44,7 @@ function Portfolio() {
                         </div>
                     </a>
                 </div>
-                <div className="portfolio-item" style={{marginLeft: "10px"}}>
+                <div className="portfolio-item" style={{marginLeft: "15px"}}>
                     <a
                         href="https://troll-gnyot-el.github.io/nasa-proj/"
                         target="_blank"
