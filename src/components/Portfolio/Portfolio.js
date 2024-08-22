@@ -12,7 +12,7 @@ function Portfolio() {
               >
                   <div className="proj-container">
                       <img
-                          src="/spines_home.jpg"
+                          src="spines_home.jpg"
                           alt="SPINES"
                       />
                       <div className="overlay">
@@ -32,7 +32,7 @@ function Portfolio() {
               >
                   <div className="proj-container">
                       <img
-                          src="/public/alfa_home.jpg"
+                          src="alfa_home.jpg"
                           alt="ALFA-BANK"
                       />
                       <div className="overlay">
