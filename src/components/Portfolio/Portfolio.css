@@ -5,8 +5,13 @@
     background: #fff;
 }
 
+.projects-row {
+    display: flex;
+    flex-direction: row;
+}
+
 .portfolio-item {
-    position: relative;
+    /*position: relative;*/
     display: inline-block;
     cursor: pointer;
 }
