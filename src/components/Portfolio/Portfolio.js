@@ -32,7 +32,7 @@ function Portfolio() {
                     >
                         <div className="proj-container">
                             <img
-                                src="alfa_home.jpg"
+                                src="alfa.jpg"
                                 alt="ALFA-BANK"
                             />
                             <div className="overlay">
